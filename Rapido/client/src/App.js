@@ -35,7 +35,7 @@ const App = () => {
         <Route path='/dprofile' element={<Protected><Dprofile></Dprofile></Protected>}></Route>
         <Route path='/pending' element={<Protected><Pending></Pending></Protected>}></Route>
         <Route path='/myrides' element={<Protected><Dcompleted></Dcompleted></Protected>}></Route>
-        <Route path='/completed' element={<Protected><Ccomple></Ccomple></Protected>}></Route>
+        
       </Routes>
     </Router>
     <Login/>
